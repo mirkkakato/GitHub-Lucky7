@@ -10,9 +10,13 @@ public class luckyNumber7 {
 
         int yritykset;
         int seiskat;
-        int panos = 10; // Aloitusrahat päätetty valmiiksi ilman käyttäjän syötettä
+        int panos;
+        String rahat;
 
         System.out.println("Tervetuloa pelaamaan Lucky7-peliä!");
+        System.out.println("Paljonko käytät rahaa?");
+        rahat = in.nextLine();
+        panos = Integer.parseInt(rahat);
 
         boolean playAgain = true; 
 
