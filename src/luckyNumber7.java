@@ -36,6 +36,9 @@ public class luckyNumber7 {
             } else if (seiskat == 2) {
                 System.out.println("Onnea, löysit kaksi seiskaa!");
                 panos += 5;
+            } else if (seiskat == 3) {
+                System.out.println("JACKPOT! Kolme seiskaa!");
+                panos += 100;
             } else {
                 System.out.println("Hävisit, mikään numero ei ollut 7.");
             }
